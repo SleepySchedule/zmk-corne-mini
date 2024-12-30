@@ -86,6 +86,11 @@
             bindings = <&kp PRINTSCREEN>;
             key-positions = <16 38>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+        };
     };
 
     //
