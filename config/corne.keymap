@@ -92,31 +92,37 @@
         prtscr {
             bindings = <&kp PRINTSCREEN>;
             key-positions = <16 38>;
+            layers = <0 4>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
+            layers = <0 4 5>;
         };
 
         cut {
             bindings = <&kp LC(X)>;
             key-positions = <25 26>;
+            layers = <0 4>;
         };
 
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <27 26>;
+            layers = <0 4>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
             key-positions = <27 28>;
+            layers = <0 4>;
         };
 
         save {
             bindings = <&kp LC(S)>;
             key-positions = <25 28>;
+            layers = <0 4>;
         };
 
         qwerty_toggle {
